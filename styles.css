@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    background-color:rgb(61, 68, 98);
+    padding:171.635px;
+    text-align: center;
+}
+
+button{
+    cursor:pointer;
+}
+
+#mainDiv{
+    width:576px;
+    height:676.73px;
+    margin:auto;
+}
+#displaySection{
+    width:536px;
+    height:142.73px;
+    margin:10px auto 13.5px auto;
+    border-radius:12px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color:#181F32;
+}
+#displaySection div input{
+    height:120px;
+    width:506px; 
+    color:white;
+    background-color:#181F32 ;
+    text-align:right;
+    font-size:55px;
+    margin:10px auto; /*to adjust inner div (left and right) margin w.r.t outer div */
+}
+#buttonsSection{
+    width:536px;
+    height:487px;
+    margin:10px auto 13.5px auto;
+    background-color:#252D44;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+#buttonsSection>div{
+    width:466px;
+    height:392px;
+    padding-top:19.5px;
+    margin:0px auto 42.5px;
+}
+.buttonsRow{
+    display:flex;
+    justify-content:space-between;
+    margin-top:23px;
+    height:60px;
+    gap:22px;
+} 
+.buttonsRow button{
+    width:99.25px;
+    height:60px;
+    background-color:white;
+    color:#3B4664;
+    font-size:30px;
+    border-radius:12px;
+}
+.buttonsRow div .lowestButtons{
+    width:222.44px;
+    border-radius:11.52px;
+    color:white;
+}

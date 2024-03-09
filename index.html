@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="displaySection">
+            <div>
+                <input type="text" id="valueEntry" value="0"/>
+            </div>
+        </div>
+        <div id="buttonsSection">
+            <div>
+                <div class="buttonsRow">
+                    <div><button type="button" onclick="display('7')">7</button></div>
+                    <div><button type="button" onclick="display('8')">8</button></div>
+                    <div><button type="button" onclick="display('9')">9</button></div>
+                    <div><button type="button" style="background-color:grey; color:white;" onclick="erase()">DEL</button></div>
+                </div>
+                <div class="buttonsRow">
+                    <div><button type="button" onclick="display('4')">4</button></div>
+                    <div><button type="button" onclick="display('5')">5</button></div>
+                    <div><button type="button" onclick="display('6')">6</button></div>
+                    <div><button type="button" onclick="display('+')">+</button></div>
+                </div>
+                <div class="buttonsRow">
+                    <div><button type="button" onclick="display('1')">1</button></div>
+                    <div><button type="button" onclick="display('2')">2</button></div>
+                    <div><button type="button" onclick="display('3')">3</button></div>
+                    <div><button type="button" onclick="display('-')">-</button></div>
+                </div>
+                <div class="buttonsRow">
+                    <div><button type="button" onclick="display('.')">.</button></div>
+                    <div><button type="button" onclick="display('0')">0</button></div>
+                    <div><button type="button" onclick="display('/')">/</button></div>
+                    <div><button type="button" onclick="display('*')">x</button></div>
+                </div>
+                <div class="buttonsRow">
+                    <div><button type="button" class="lowestButtons" style="background-color:rgb(108, 116, 149);" onclick="clear()">RESET</button></div>
+                    <div><button type="button" class="lowestButtons" style="background-color:red;" onclick="calculate()">=</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
